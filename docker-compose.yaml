@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  coinbase-scraper:
+    image: ubuntu:18.04
+    volumes:
+      - ./data:/data
+      - ./code:/code
