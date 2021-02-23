@@ -2,6 +2,7 @@ version: "3.8"
 services:
   coinbase-scraper:
     image: ubuntu:18.04
+    command: python /code/coinbase_scraper/demo_raw_data.py
     volumes:
       - ./data:/data
       - ./code:/code
